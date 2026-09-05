@@ -1,0 +1,19 @@
+{
+  "efsRoot": "<EFS_ROOT>",
+  "repoRoot": "<REPO_ROOT>",
+  "pageObjectDir": "src/pages",
+  "featureDir": "features",
+  "verifyCommand": "npx cucumber-js {target}",
+  "verifyRepeat": 2,
+  "bedrockModelId": "<BEDROCK_MODEL_ID>",
+  "bedrockRegion": "us-east-1",
+  "maxModelCalls": 10,
+  "minConfidence": 0.75,
+  "cascadeTagFailureRatio": 0.7,
+  "github": {
+    "owner": "<GITHUB_OWNER>",
+    "repo": "<GITHUB_REPO>",
+    "baseBranch": "main",
+    "branchPrefix": "ai/locator-fixes"
+  }
+}
